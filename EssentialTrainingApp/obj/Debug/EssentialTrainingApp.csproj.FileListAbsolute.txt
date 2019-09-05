@@ -1,0 +1,7 @@
+C:\Users\BPasula\Source\Repos\EssentialTraining\EssentialTrainingApp\bin\Debug\EssentialTrainingApp.exe.config
+C:\Users\BPasula\Source\Repos\EssentialTraining\EssentialTrainingApp\bin\Debug\EssentialTrainingApp.exe
+C:\Users\BPasula\Source\Repos\EssentialTraining\EssentialTrainingApp\bin\Debug\EssentialTrainingApp.pdb
+C:\Users\BPasula\Source\Repos\EssentialTraining\EssentialTrainingApp\obj\Debug\EssentialTrainingApp.csprojAssemblyReference.cache
+C:\Users\BPasula\Source\Repos\EssentialTraining\EssentialTrainingApp\obj\Debug\EssentialTrainingApp.csproj.CoreCompileInputs.cache
+C:\Users\BPasula\Source\Repos\EssentialTraining\EssentialTrainingApp\obj\Debug\EssentialTrainingApp.exe
+C:\Users\BPasula\Source\Repos\EssentialTraining\EssentialTrainingApp\obj\Debug\EssentialTrainingApp.pdb
