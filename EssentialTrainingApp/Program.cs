@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks; 
-using System.IO; 
+using System.IO;  
+using NLog; 
 
 namespace EssentialTrainingApp
 {
     class Program
     {
+        public static Logger logger = LogManager.GetCurrentClassLogger(); 
         public static List<string> Words;
         static void Main(string[] args)
-        {  
+        {   
+            logger.Trace("Program started.");
             Words = new List<string>();
             Words.Add("Bread");  
             Words.Add("Milk"); 
@@ -45,11 +48,13 @@ namespace EssentialTrainingApp
             }
             catch (DirectoryNotFoundException ex)
             {
-                Console.WriteLine("Could not find the directory. Error: " + ex);
+                Console.WriteLine("Could not find the directory. Error: " + ex); 
+                logger.Error("Could not find the directory. Error: " + ex.Message);
             }
             catch (FileNotFoundException ex)
             {
-                Console.WriteLine("Could not find the file. Error: " + ex);
+                Console.WriteLine("Could not find the file. Error: " + ex); 
+                logger.Error("Could not find the file. Error: " + ex.Message);
             }
             catch (Exception ex)
             {
